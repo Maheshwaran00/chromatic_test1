@@ -1,0 +1,13 @@
+trigger:
+- automate-v2.0
+
+pool:
+  vmImage: 'windows-latest'
+steps: 
+- script: | 
+    choco install k6
+  displayName: Install k6
+
+- script: | 
+   k6 run scripts\k6demo.js
+  displayName: Run K6 load test

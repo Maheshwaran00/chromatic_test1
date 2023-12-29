@@ -1,0 +1,40 @@
+{
+  "name": "pom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests": "playwright test --config=playwright.config.ts --project=chromium",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@storybook/addon-essentials": "^7.6.6",
+    "@storybook/addon-interactions": "^7.6.6",
+    "@storybook/addon-links": "^7.6.6",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.6",
+    "@storybook/nextjs": "^7.6.6",
+    "@storybook/react": "^7.6.6",
+    "@storybook/react-webpack5": "^7.6.6",
+    "@storybook/test": "^7.6.6",
+    "@types/node": "^20.8.7",
+    "@zerostep/playwright": "^0.1.2",
+    "allure-commandline": "^2.24.1",
+    "allure-playwright": "^2.9.2",
+    "chromatic": "^10.2.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.6"
+  },
+  "dependencies": {
+    "@storybook/addon-styling-webpack": "^0.0.5",
+    "exceljs": "^4.4.0",
+    "formula-pmt": "^1.0.1"
+  }
+}
